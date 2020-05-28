@@ -18,6 +18,8 @@ Further it starts Electron app with http://localhost:3000
 
 Any changes done in react reflects automatically (almost instantly) in electron and browser both.
 
+
+**Note: When you wan to build electron app, you should change public/dev.js to public/main.js in package.json file**
 ### `npm run electron-build`
 ### `npm run electron-dist`
 
